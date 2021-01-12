@@ -1,0 +1,20 @@
+{
+  "name": "tensorflowWW",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.8.3",
+    "@tensorflow/tfjs-vis": "^1.4.3",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "jquery": "^3.5.1"
+  }
+}
