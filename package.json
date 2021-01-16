@@ -11,10 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^2.8.3",
+    "@tensorflow/tfjs-backend-cpu": "^2.8.3",
+    "@tensorflow/tfjs-backend-webgl": "^2.8.3",
     "@tensorflow/tfjs-vis": "^1.4.3",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.5.3",
     "chart.js": "^2.9.4",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "tfjs-tiny-yolov3": "^1.0.3"
   }
 }

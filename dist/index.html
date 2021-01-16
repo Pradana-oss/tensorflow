@@ -1,43 +1,60 @@
 <html>
-<link rel="stylesheet" href="/modul.e31bb0bc.css"><body>
- <div class="container">
- <div class="card-body">
- <h1>Belajar TensorFlow.js Bersama Lab AI</h1>
- </div><hr>
- <div class="card-body">
-     <!-- <h4>Scatter Plot Data (tfjs-vis)</h4>
-     <div id="scatter-tfjs"></div>
-     <hr><br> -->
-
-     <h4>Scatter Plot Data (chart.js)</h4>
-     <canvas id="scatter-chartjs" height="400" width="500">
-     </canvas>
-
-     <!--Training Proces-->
-     <div class="card-body">
-        <div class="form-group">
-        <h3>Train Model</h3>
-        <button type="button" class="btn btn-primary" id="init-btn">Initialize Model</button>
-        <button type="button" class="btn btn-primary" id="train-btn" disabled="">Train Model</button>
-        </div>
-        <h4><span id="is-training" class="badge"></span></h4>
-        </div><hr>
-    <!-- Testing Process -->
-    <div class="card-body" id="predict" style="display:none;">
-        <h3>Test Result</h3>
-        <div class="col-5 form-group">
-        <label>Input Value:</label>
-        <input type="text" id="inputValue" class="form-control">
-        </div>
-        <div class="col-5 form-group">
-        <button type="button" class="btn btn-primary" id="predict-btn">Predict</button>
-        </div>
-        <h4>Result: <span class="badge badge-success" id="output"></span></h4>
-    </div>
-   
- </div><hr>
- <div id="output">
- </div>
- <script src="/modul.e31bb0bc.js"></script>
-</div></body>
+    <head>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>.flex-container {
+              display: flex;
+              background-color: #f1f1f1;
+            }
+            .flex-container1 {
+              display: flex;
+              flex-direction: column;
+            }
+            .flex-container1 > div {
+              color: white;
+              width: 1000px;
+              margin: 120px;
+              text-align: center;
+              line-height: 200px;
+              font-size: 30px;
+            }
+            .flex-container > div {
+              color: white;
+              width: 1000px;
+              margin: 120px;
+              text-align: center;
+              line-height: 200px;
+              font-size: 30px;
+            }</style>
+    </head>
+    <body>
+            <div class="flex-container" style="width: 1840px;">
+              <div>
+                <canvas id="myChart"></canvas>
+              </div>
+              <div>
+                <canvas id="myChartsatu"></canvas>
+              </div>
+              <div>
+                <canvas id="myChartdua"></canvas>
+              </div>
+            </div>
+            <div class="flex-container" style="width: 1840px;">
+                <div>
+                  <canvas id="myCharttiga"></canvas>
+                </div>
+                <div>
+                  <canvas id="myChartempat"></canvas>
+                </div>
+                <div>
+                  <canvas id="myChartlima"></canvas>
+                </div>
+            </div>
+            <div class="flex-container" style="width: 1840px;">
+                <div>
+                  <canvas id="myChartenam"></canvas>
+                </div>
+            </div>
+        <script src="/newCHart.e31bb0bc.js"></script>
+    </body>
 </html>
